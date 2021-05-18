@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-size: 5em;
+    font-weight: 600;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter {
+    height: 100vh;
+    padding: 5%;
+}
+
+.count-down {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.count {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.count-img {
+    height: 50vh;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
