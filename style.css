@@ -9,37 +9,30 @@ body {
 }
 
 h2 {
-    font-size: 5em;
+    font-size: 4em;
     font-weight: 600;
-    padding-bottom: 5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding-bottom: 3rem;
 }
 
 .counter {
-    height: 100vh;
-    padding: 5%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .count-down {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-}
-
-.count {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-align: center;
+    padding-bottom: 2rem;
 }
 
-.count-img {
-    height: 50vh;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+.day,
+.hour,
+.minute,
+.second {
+    font-size: 2em;
+    font-weight: 400;
 }
