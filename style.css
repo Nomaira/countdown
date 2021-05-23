@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    color: #464353;
 }
 
 h2 {
@@ -35,4 +36,9 @@ h2 {
 .second {
     font-size: 2em;
     font-weight: 400;
+}
+
+count-img {
+    width: 50vh;
+    height: auto;
 }
